@@ -62,9 +62,11 @@ dependencies {
     implementation(libs.hilt.navigation.compose)
 
     // Networking
-
-
-    // Room
+    implementation(libs.kotlinx.serialization.json)
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.converter.gson)
+    implementation(libs.okhttp)
+    implementation(libs.okhttp.logging.interceptor)
 
     // Testing
     testImplementation(libs.junit)
